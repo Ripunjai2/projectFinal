@@ -1,0 +1,13 @@
+One simple way to store information in these paper documents in to computer system 
+is to first scan the documents and then store them as IMAGES. But to reuse this  
+information it is very difficult to read the individual contents and 
+searching the contents form these documents line-by-line and word-by-word. 
+The reason for this difficulty is the font characteristics of the characters in paper 
+documents are different to font of the characters in computer system. As a 
+result, computer is unable to recognize the characters while reading them. 
+This concept of storing the contents of paper documents in computer storage place 
+and then reading and searching the content is called DOCUMENT
+ PROCESSING. Sometimes in this document processing we need to process the 
+information that is related to languages other than the English in the world. For this 
+document processing we need a software system called CHARCATER RECOGNITION 
+SYSTEM. This process is also called DOCUMENT IMAGE ANALYSIS (DIA).

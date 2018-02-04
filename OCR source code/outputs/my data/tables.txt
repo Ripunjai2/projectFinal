@@ -1,0 +1,7 @@
+create table admindetails admin name varchar2 10,adminpwd varchar2(10),
+address varchar2 20,dob date,sex varchar2 1,role varchar2 10 ;
+
+create table categorydetails pid varchar2 5,pname varchar 10,
+age number 2,problem varchar2 20,
+category varchar2 15,concession number 2;
+

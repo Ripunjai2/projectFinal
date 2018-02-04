@@ -1,0 +1,32 @@
+create table admin_details(admin_name varchar2(10),admin_pwd varchar2(10),
+address varchar2(20),dob date,sex varchar2(1),role varchar2(10));
+
+create table category_details(p_id varchar2(5),pname varchar2(10),
+age number(2),problem varchar2(20),
+category varchar2(15),concession number(2));
+
+create table diagnostic_details(p_id varchar2(5),
+predictions varchar2(20),medicines varchar2(20),
+dosage number(3),fromdate varchar2(10),todate varchar2(10),
+usagedirections varchar2(20),pharmacy_id number,pharmacy_name varchar2(10));
+
+create table doctor_details(d_id varchar2(5),d_name varchar2(10),
+d_pwd varchar2(10),address varchar2(20),age number(2),
+specialization varchar2(20),qualification varchar2(10),
+percentage number(2),role varchar2(10),status varchar2(5));
+
+create table patient_details(p_id varchar2(5),p_name varchar2(10),
+p_pwd varchar2(10),f_name varchar2(20),age number(2),
+address varchar2(20),problem varchar2(20),role varchar2(10),
+status varchar2(10),visitdate varchar2(10),visitdoctor varchar2(10),
+d_name varchar2(10));
+
+create table pay_details(billno varchar(5),p_id varchar2(5),
+bdate varchar2(10),p_name varchar2(10),category varchar2(10),
+totbill number(5),concession number(5),netbill number(5),pharmacybill number);
+
+create table pharmacy_details(pharmacy_id number,
+username varchar2(10),
+password varchar2(10),pharmacy_name varchar2(10),address varchar2(20));
+
+insert into admin_details values('admin','admin','xxx','8-jul-1980','M','Administrator');

@@ -1,0 +1,21 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
+import java.io.*;
+
+
+public class ExitFrame extends JFrame implements ActionListener
+{
+GraphicsEnvironment ge;
+ge=GraphicsEnvironment.getLocalGraphicsEnvironment();
+setSize(640,480);
+show();
+addWindowListener(new WindowAdapter()
+		{
+		public void windowClosing(WindowEvent we)
+		{
+		System.exit(0);
+		}
+		});
+}
